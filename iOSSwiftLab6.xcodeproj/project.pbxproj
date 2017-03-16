@@ -7,21 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC0EFD151E79826A006FEB40 /* questionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0EFD141E79826A006FEB40 /* questionViewController.swift */; };
 		EC65FD781E758D54003A9A7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC65FD771E758D54003A9A7C /* AppDelegate.swift */; };
 		EC65FD7A1E758D54003A9A7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC65FD791E758D54003A9A7C /* ViewController.swift */; };
 		EC65FD7D1E758D54003A9A7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC65FD7B1E758D54003A9A7C /* Main.storyboard */; };
-		EC65FD7F1E758D54003A9A7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC65FD7E1E758D54003A9A7C /* Assets.xcassets */; };
 		EC65FD821E758D54003A9A7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC65FD801E758D54003A9A7C /* LaunchScreen.storyboard */; };
+		EC65FD8A1E758DDF003A9A7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC65FD891E758DDF003A9A7C /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC0EFD141E79826A006FEB40 /* questionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = questionViewController.swift; sourceTree = "<group>"; };
 		EC65FD741E758D54003A9A7C /* iOSSwiftLab6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSSwiftLab6.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC65FD771E758D54003A9A7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC65FD791E758D54003A9A7C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EC65FD7C1E758D54003A9A7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EC65FD7E1E758D54003A9A7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC65FD811E758D54003A9A7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC65FD831E758D54003A9A7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC65FD891E758DDF003A9A7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +59,10 @@
 				EC65FD771E758D54003A9A7C /* AppDelegate.swift */,
 				EC65FD791E758D54003A9A7C /* ViewController.swift */,
 				EC65FD7B1E758D54003A9A7C /* Main.storyboard */,
-				EC65FD7E1E758D54003A9A7C /* Assets.xcassets */,
 				EC65FD801E758D54003A9A7C /* LaunchScreen.storyboard */,
+				EC65FD891E758DDF003A9A7C /* Assets.xcassets */,
 				EC65FD831E758D54003A9A7C /* Info.plist */,
+				EC0EFD141E79826A006FEB40 /* questionViewController.swift */,
 			);
 			path = iOSSwiftLab6;
 			sourceTree = "<group>";
@@ -124,7 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC65FD821E758D54003A9A7C /* LaunchScreen.storyboard in Resources */,
-				EC65FD7F1E758D54003A9A7C /* Assets.xcassets in Resources */,
+				EC65FD8A1E758DDF003A9A7C /* Assets.xcassets in Resources */,
 				EC65FD7D1E758D54003A9A7C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC0EFD151E79826A006FEB40 /* questionViewController.swift in Sources */,
 				EC65FD7A1E758D54003A9A7C /* ViewController.swift in Sources */,
 				EC65FD781E758D54003A9A7C /* AppDelegate.swift in Sources */,
 			);
@@ -297,6 +301,7 @@
 				EC65FD881E758D54003A9A7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
